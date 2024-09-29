@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Buff Central</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Movie Buff Central: Harry Potter</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+          <li><a href="#quote">Quote of the Day</a></li>
+          <li><a href="#quiz">Trivia Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to the Wizarding World</h2>
+      <p>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends, Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry</p>
+      
+      
+      <p> The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles.</p>
+      
+      
+      <div class="poster-grid">
+        <img src="images\poster1.jpg" alt="Harry Potter poster">
+        <img src="images\poster2.jpg" alt="Harry Potter poster">
+        <img src="images\poster3.jpg" alt="Harry Potter poster">
+      </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters">
+      <h2>Character Bios</h2>
+      <div class="character-grid">
+        <div class="character-card">
+          <img src="images\harry1.jpg" alt="Harry Potter">
+          <h3>Harry Potter</h3>
+          <p>The Boy Who Lived, known for his lightning scar and bravery.</p>
+          <ul>
+            <li>Defeated Lord Voldemort as a baby</li>
+            <li>Gryffindor House member</li>
+            <li>Skilled in Defense Against the Dark Arts</li>
+          </ul>
+        </div>
+        <div class="character-card">
+          <img src="images\hermione.jpg" alt="Hermione Granger">
+          <h3>Hermione Granger</h3>
+          <p>The brightest witch of her age, known for her intelligence and loyalty.</p>
+          <ul>
+            <li>Muggle-born witch</li>
+            <li>Gryffindor House member</li>
+            <li>Exceptional in all subjects</li>
+          </ul>
+        </div>
+        <div class="character-card">
+          <img src="images\ron.jpg" alt="Ron Weasley">
+          <h3>Ron Weasley</h3>
+          <p>Harry best friend, known for his humor and strategic mind.</p>
+          <ul>
+            <li>Pure-blood wizard</li>
+            <li>Gryffindor House member</li>
+            <li>Excellent chess player</li>
+          </ul>
+        </div>
+        <div class="character-card">
+          <img src="images\dumbledore.jpg" alt="Albus Dumbledore">
+          <h3>Albus Dumbledore</h3>
+          <p>Headmaster of Hogwarts, one of the most powerful wizards of all time.</p>
+          <ul>
+            <li>Founder of the Order of the Phoenix</li>
+            <li>Defeated dark wizard Grindelwald</li>
+            <li>Master of the Elder Wand</li>
+          </ul>
+        </div>
+        <div class="character-card">
+          <img src="images\snape.jpg" alt="Severus Snape">
+          <h3>Severus Snape</h3>
+          <p>Potions Master at Hogwarts, with a complex past and allegiances.</p>
+          <ul>
+            <li>Former Death Eater turned spy for Dumbledore</li>
+            <li>Head of Slytherin House</li>
+            <li>Skilled in Occlumency and Legilimency</li>
+          </ul>
+        </div>
+        <div class="character-card">
+          <img src="images\voldemort.jpg" alt="Lord Voldemort">
+          <h3>Lord Voldemort</h3>
+          <p>The Dark Lord, the main antagonist of the series.</p>
+          <ul>
+            <li>Born as Tom Marvolo Riddle</li>
+            <li>Created seven Horcruxes</li>
+            <li>Feared by most of the wizarding world</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer">
+      <h2>Movie Trailer</h2>
+      <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5hU0EeBQEZY?si=eSDHTjESsaAzyfYH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section id="quote">
+      <h2>Quote of the Day</h2>
+      <blockquote id="quoteOfTheDay"></blockquote>
+    </section>
+
+    <!-- Trivia Quiz Section -->
+    <section id="quiz">
+      <h2>Trivia Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button id="next-question">Next</button>
+        <p id="score"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Movie Buff Central. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
